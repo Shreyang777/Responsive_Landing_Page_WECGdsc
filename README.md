@@ -31,7 +31,10 @@
 !-------------------------------------Resources-Used------------------------------!
 
 1.>images.google.com
+
 2.>cricapi
+
 3.>Sportsmonks API
+
 4.>Wikipedia
 
