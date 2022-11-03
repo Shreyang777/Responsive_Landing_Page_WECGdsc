@@ -1,9 +1,4 @@
-
-###Task ID: Responsive Landing Page
-
-
-
-
+###  Task ID: Responsive Landing Page
 
 !______________________FEATURES NONE OTHER WEBPAGE OFFERS________________________!
 
