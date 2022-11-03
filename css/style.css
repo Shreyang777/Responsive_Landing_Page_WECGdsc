@@ -1,0 +1,292 @@
+h1{
+  font-family: "Montserrat";
+  font-weight:900;
+  font-size:4rem;
+  line-height:1.5;
+
+
+}
+
+h2{
+  font-family:"Montserrat";
+  font-weight:bold;
+  font-size:3rem
+}
+
+h3{
+    font-family:"Montserrat";
+
+}
+
+
+/* ---------------------------------------------------CLass--------------------------------- */
+
+.container-fluid{
+  padding:3% 15%;               /*Giving the container our theme color😊😊*/
+
+}
+
+                                                          /* NAVBAR-CSS */
+.navbar{
+  background-color:  #333399;
+
+}
+.navbar-collapse{
+  position:relative;
+  right:25%
+
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:40px;
+    font-weight: bold;
+
+}
+
+.navbar{
+  padding-bottom:3rem;
+
+
+}
+.nav-link{
+  font-size:1.2rem;
+
+
+}
+
+                                                        /* Animating title image with help of css */
+
+@keyframes bounce {
+      from {
+          transform: translate3d(0, 0, 0);
+
+      }
+      to {
+         transform: translate3d(0, 20px, 0);
+
+      }
+
+}
+.title-img{
+  width:25%;
+  position:absolute;
+  bottom:7%;
+  z-index:0;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
+
+}
+
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+  font-family:Poppins;
+  font-weight: 200
+}
+
+                                                        /* Animated wave background */
+.waves{
+  position: relative;
+  width: 100%;
+  height:100px;
+  background-color:#333399;
+  overflow: hidden;
+}
+.wave{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width:100%;
+  height:100px;
+  background:url(wave.png);
+  background-size:1000px 100px;
+
+}
+
+/* ---------------------------------------------------------features----------------------------------- */
+
+                                    /* All the font-Awesome has been styled here */
+.fa-circle-check{
+  color:#9794F9;
+  margin:10% 10% 2% 10%;
+
+}
+.fa-ranking-star{
+  color:#9794F9;
+  margin:10% 10% 2% 10%;
+
+}
+.fa-newspaper{
+  color:#9794F9;
+  margin:10% 10% 2% 10%;
+}
+
+.fa-circle-check:hover{
+  color:   #333399;
+  margin:5% 10% 2% 10%;
+}
+.fa-ranking-star:hover{
+    color:   #333399;
+  margin:5% 10% 2% 10%;
+
+}
+
+.fa-newspaper:hover{
+  color:   #333399;
+  margin:5% 10% 2% 10%;
+}
+
+.des{
+width:50%;margin:0 auto 0 auto; color:#8f8f8f;
+}
+
+
+.test-img{
+  border-radius:100%;
+  width:20%;
+  margin:auto;
+  margin-right:1%;
+
+}
+
+.trans-img{
+
+  width:10%;
+  margin:auto;
+  margin-right:1%;
+}
+/*  Rohit and virat transparent image*/
+
+.carousel-control-next-icon{
+  position:relative;
+  left:150px;
+  top:40px;
+}
+
+.carousel-control-prev-icon{
+  position:relative;
+  right:100%;
+  top:40px
+}
+
+.logo{
+  width:15%;
+  margin:20px 20px 0 50px;
+}
+/* ------------------------------------------------pricing------------------------------------------ */
+.pricing-column{
+  text-align: center;
+}
+
+/* -----------------------------------------------------calling to action------------------------------------------------------ */
+.final{
+  font-family:"Montserrat";
+  font-weight:900;
+  font-size:3rem;
+  width:70%;
+  margin:0 auto 50px auto;
+  color:#fff;
+
+}
+
+/*---------------------------------------------------------footer--------------------------------------------------- */
+
+.social-links{
+  width:50%;
+  display:flex;
+  position:relative;
+  left:43%;
+  margin-top:20px
+}
+
+
+                                  /* Bouncing and color changing icon of footer to make it more impressive */
+
+.social-links a{
+  text-align: center;
+  color:#000;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 10px rgba(0,0,0,0.1);
+  margin:10px 10px 10px 10px;
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+.footer-icons{
+  transition:0.5s;
+}
+
+.footer-icons:hover{
+transform: translateY(-10px);
+transition: 0.5s;
+}
+
+.twitter-icon:hover{
+  color:#1DA1F2;
+}
+
+.facebook-icon:hover{
+  color:#3B5998;
+}
+                                          /* Gradient color added to instagram icon on hover with CSS */
+.instagram-icon:hover{
+ background:linear-gradient(to top right,#bc2a8d,#fccc63);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.discord-icon:hover{
+  color:#7289d9;
+}
+
+/*-----------------------------------------------------------------id-selectors being styled here---------------------------------- */
+#title{
+  background-color:  #333399;
+  color:white;
+
+}
+#features{
+  z-index:1;
+  background-color: white;
+  text-align: center;
+
+  margin:5% 10% 5% 12% ;
+}
+
+#testimonials{
+  background-color: #9794F9;
+  text-align: center;
+  padding:5%;
+  margin:5% 10% 0 18.5%;
+  color:#fff;
+}
+
+#final-testimonials{
+background-color: #9794F9;
+padding:0;
+margin:0;
+}
+
+
+#press{
+  text-align: center;
+  padding:15px 15px 70px 15px;
+}
+
+#pricing{
+  text-align :center;
+}
+
+#cta{
+
+    background-color: #333399;
+    padding:7% 15%;
+    text-align: center;
+
+}
+
+#footer{
+  text-align:center;
+
+}
